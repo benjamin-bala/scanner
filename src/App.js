@@ -1,7 +1,7 @@
-import Login from "./pages/Login";
+import Otp from "./pages/Otp";
 
 function App() {
-  return <Login />;
+  return <Otp />;
 }
 
 export default App;
