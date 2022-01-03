@@ -1,7 +1,7 @@
-import Otp from "./pages/Otp";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
-  return <Otp />;
+  return <Dashboard />;
 }
 
 export default App;

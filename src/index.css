@@ -42,10 +42,17 @@ body {
 .bgwhite{
   background: var(--white);
 }
+.green-bg{
+  background: var(--green);
+}
 .textblue{
   color: var(--blue);
 }
 .screen-width{
   max-width: 700px;
   margin: 0 auto;
+}
+
+.gradient{
+  background: linear-gradient(179.92deg, #404CCF 0.07%, #0BB4EF 95.86%);
 }
