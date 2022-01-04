@@ -1,11 +1,12 @@
 import React from "react";
-import { MdOutlineAddBox } from "react-icons/md";
+import Receipts from "../../Components/Receipts";
+import Reminder from "../../Components/Reminder";
 
 export default function Dashboard() {
   return (
     <div>
       <div className='gradient'>
-        <div className='max-w-screen-sm mx-auto p-6 flex flex-col justify-between md:justify-center'>
+        <div className='max-w-screen-sm mx-auto py-8 px-12 flex flex-col justify-between md:justify-center'>
           <div className='my-4'>
             <h3 className='text-white text-3xl md:text-4xl font-semibold'>
               Welcome back, <br /> Benjee!
@@ -23,14 +24,10 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-      <div className='max-w-screen-sm mx-auto p-6 flex flex-col justify-between md:justify-center'>
+      <div className='max-w-screen-sm mx-auto py-8 px-12 flex flex-col justify-between md:justify-center'>
         <div className='my-6'>
-          <div className='flex items-center justify-between'>
-            <h2 className='text-4xl font-semibold text-gray-800'>Reminder</h2>
-            <div>
-              <MdOutlineAddBox size={28} fill='#999' />
-            </div>
-          </div>
+          <Reminder />
+          <Receipts />
         </div>
       </div>
     </div>
