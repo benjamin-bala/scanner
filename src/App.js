@@ -1,10 +1,10 @@
 import Nav from "./Components/Nav";
-import Dashboard from "./pages/Dashboard";
+import Expenses from "./pages/Expenses";
 
 function App() {
   return (
     <div>
-      <Dashboard />
+      <Expenses />
       <Nav />
     </div>
   );
