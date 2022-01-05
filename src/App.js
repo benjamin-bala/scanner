@@ -1,10 +1,10 @@
 import Nav from "./Components/Nav";
-import Expenses from "./pages/Expenses";
+import Details from "./pages/Details";
 
 function App() {
   return (
     <div>
-      <Expenses />
+      <Details />
       <Nav />
     </div>
   );

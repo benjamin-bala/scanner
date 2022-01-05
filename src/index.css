@@ -61,6 +61,9 @@ body {
   max-width: 700px;
   margin: 0 auto;
 }
+.darkblue{
+  color: var(--text-blue);
+}
 
 .gradient{
   background: linear-gradient(179.92deg, #404CCF 0.07%, #0BB4EF 95.86%);
